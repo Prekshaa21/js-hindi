@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() -singleton object
+const tinderUser = {} //non singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -63,7 +63,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course //destructuring
 
 // console.log(courseInstructor);
 console.log(instructor);
